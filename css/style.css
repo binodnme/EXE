@@ -1,4 +1,4 @@
-.logo{
+.header-content .logo{
 	width: 8.37607%;
 	float: left;
 	padding-top: 24px;
@@ -7,7 +7,7 @@
 	background: red;
 }
 
-.logo img{
+.header-content .logo img{
 	width: 100%;
 }
 
@@ -59,63 +59,181 @@ div.menu ul li a{
     line-height: 29px;
 }
 
-.clean-design-logo{
+.service-logo{
 	width: 100%;
 	height: 100px;
+}
+
+.clean-design-logo{
 	background: url('../images/clean_design.png') no-repeat;
 	background-position: 50% 50%;
 }
 
 .branding-logo{
-	width: 100%;
-	height: 100px;
 	background: url('../images/branding.png') no-repeat;
 	background-position: 50% 50%;
 }
 
 .responsive-logo{
-	width: 100%;
-	height: 100px;
 	background: url('../images/responsive.png') no-repeat;
 	background-position: 50% 50%;
 }
 
 .development-logo{
-	width: 100%;
-	height: 100px;
 	background: url('../images/development.png') no-repeat;
 	background-position: 50% 50%;
 }
 
 
-.clean-design-info{
+.service-info{
 	text-align: center;
 }
 
-.clean-design-info p.title{
+.service-title{
 	font-family: 'roboto';
 	font-size: 25px;
 	font-weight: bold;
 	line-height: 72px;
 }
 
-.clean-design-info p.info{
+.service-description{
 	font-family: 'roboto';
 	font-size: 15px;
 	color: #aaaaaa;
-	/*font-weight: bold;*/
 	line-height: 19px;
 }
 
-.bottom-bar{
+.service-bottom-bar{
 	width: 70px;
 	height: 30px;
 	margin: 0px auto;
-	/*background: #e3493f;*/
 	border-bottom: 2px solid #e3493f;
 }
 
 
+
+.achievement-info{
+	text-align: center;
+}
+
+.achievement-title{
+	font-family: 'roboto';
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 72px;
+	color: #e5493a;
+}
+
+.raleway-font{
+	font-family: 'raleway';
+}
+
+.achievement-description{
+	font-family: 'roboto';
+	font-size: 15px;
+	color: #aaaaaa;
+	line-height: 19px;
+	color: #909090;
+}
+
+.achievement-bottom-bar{
+	width: 70px;
+	height: 30px;
+	margin: 0px auto;
+	border-bottom: 2px solid #e3493f;
+}
+
+
+
+
+.achievement-counter{
+	width: 100%;
+	font-family: 'raleway';
+	font-weight: bold;
+	font-size: 48px;
+	color: white;
+	/*height: 44px;	*/
+}
+
+
+.blog-title{
+	text-align: center;
+	width: 47.0085%;
+	margin: 0px auto;
+	padding-top: 60px;
+}
+
+.blog-title-main{
+	font-family: 'raleway';
+	font-weight: bold;
+	font-size: 31px;
+	padding-bottom: 19px;
+}
+
+.blog-title-desc{
+	font-family: 'roboto';
+	font-size: 15px;
+	color: #8e8e8e;
+	line-height: 19px;
+}
+
+.blog-title .bottom-line{
+	width: 30.9091%;
+	height: 30px;
+	/*background: white;*/
+	border-bottom: 2px solid #373737;
+	margin: 0px auto;
+}
+
+
+
+
+.post-pic{
+	width: 100%;
+}
+
+.post-pic img{
+	width: 100%;
+}
+
+.post-date{
+	width: 91.8919%;
+	font-family: 'roboto';
+	font-size: 14px;
+	color: #cbcbcb;
+}
+
+.post-details{
+	width: 91.8919%;
+	padding-top: 30px;
+	padding-left: 8.10811%;
+	background: #fafafa;
+}
+
+.post-details .post-title{
+	width: 91.8919%;
+	font-family: 'raleway';
+	font-weight: bold;
+	font-size: 18px;
+	color: #333333;
+	padding-top: 19px;
+	padding-bottom: 20px;
+}
+
+.post-details .post-desc{
+	width: 91.8919%;
+	font-family: 'roboto';
+	font-size: 16px;
+	color: #8d8d8d;
+	padding-bottom: 30px;
+}
+
+.post-details .post-bottom-bar{
+	width: 18.9189%;
+	height: 31px;
+	border-bottom: 2px solid black;
+
+}
 
 .purchase .purchase-top {
     font-family: 'raleway';
@@ -132,3 +250,303 @@ div.menu ul li a{
     line-height: 29px;
 }
 
+
+
+.footer-logo{
+	width: 100%;
+	/*height: 41px;*/
+	padding-bottom: 28px;
+	/*background: green;*/
+	vertical-align: bottom;
+}
+
+.footer-logo .logo{
+	width: 37.037%;
+	float: left;
+	padding-right: 5.55556%;
+}
+
+.footer-logo .logo img{
+	width: 100%;
+}
+
+.footer-logo .moto{
+	width: 57.4074%;
+	float: left;
+	font-family: 'roboto';
+	font-size: 10px;
+	font-weight: bold;
+	vertical-align: bottom;
+}
+
+.content .description-wrapper{
+	/*padding-top: 34px;*/
+	padding-bottom: 47px;
+	line-height: 19px;
+	font-family: 'roboto';
+	font-size: 15px;
+
+}
+
+.description{
+	color: #676767;
+	padding-bottom: 21px;
+}
+
+a.read-more{
+	text-decoration: none;
+	color: black;
+	font-family: 'roboto';
+	font-size: 14px;
+}
+
+a.read-more.active{
+	text-decoration: none;
+	color: #e14f36;
+	font-family: 'roboto';
+	font-size: 14px;
+}
+
+a.read-more .arrow-right{
+	font-family: 'raleway';
+	font-size: 9px;
+}
+
+.content .news-letter p{
+	font-family: 'roboto';
+	font-size: 18px;
+	color: white;
+}
+
+.content .news-letter .email-input input{
+	width: 100%;
+	height: 42px;
+	border: none;
+	background: #171717;
+}
+
+.content .news-letter .email-input{
+	padding-top: 19px;
+	padding-bottom: 19px;
+	position: relative;
+}
+
+.content .privacy-policy{
+	font-family: 'raleway';
+	font-size: 13px;
+	color: #464646;
+}
+
+.mail-icon{
+	position: absolute;
+	right:15px;
+	top: 34px;
+}
+
+.content-title{
+	font-family: 'raleway';
+	font-weight: bold;
+	font-size: 25px;
+	padding-bottom: 16px;
+	padding-top: 0px;
+	color: white;
+}
+
+.content .pseudo-bottom-bar{
+	width: 70px;
+	height: 30px;
+	border-top: 2px solid #e64b39;
+}
+
+.content .news-wrapper, .tweet-wrapper, .contact-wrapper{
+	width: 100%;
+}
+
+.news .news-main, .tweets .tweet-main, .contact .contact-main{
+	width: 100%;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #363636;
+}
+
+.news-middle .news-main, .tweet-middle .tweet-main, .contact-middle .contact-main{
+	padding-top: 20px;
+}
+
+.news-bottom .news-main, .tweet-bottom .tweet-main, .contact-bottom .contact-main{
+	padding-top: 20px;
+	border-bottom: none;
+}
+
+
+.news .news-pic{
+	width: 25.9259%;
+	float: left;
+	padding-right: 6.66666%;
+}
+
+.news .news-pic img{
+	width: 100%;
+}
+
+.news-details{
+	
+}
+
+.news .news-details .news-title, .tweet{
+	font-family: 'roboto';
+	font-size: 15px;
+	line-height: 20px;
+	color: #9e9e9e;
+}
+
+
+.news .news-details .news-date, .tweet-time{
+	font-family: 'roboto';
+	font-size: 13px;
+	line-height: 32px;
+	color: #484848;
+}
+
+
+.tweet-details{
+	/*width: 67.037%;*/
+	width: 86.2963%;
+	float: left;
+}
+
+
+.twitter-pic{
+	width: 7.40741%;
+	float: left;
+	padding-right: 17px;
+}
+
+.twitter-pic img{
+	width: 100%;
+}
+
+.tweet a{
+	text-decoration: none;
+	color: white;
+}
+
+.tweet .hash, .tweet .mention{
+	color: white;
+}
+
+.contact-medium{
+	width: 25.9259%;
+	float: left;
+	padding-right: 29px;
+	font-family: 'roboto';
+	font-size: 13px;
+	line-height: 32px;
+	color: #484848;
+}
+
+.contact-details{
+	width: 63.3333%;
+	float: left;
+	font-family: 'roboto';
+	font-size: 15px;
+	line-height: 20px;
+	color: #9e9e9e;
+}
+
+span.place{
+	font-family: 'roboto';
+	font-size: 13px;
+	line-height: 20px;
+	color: #484848;	
+}
+
+.mail-addr{
+	color: #e24c33;
+}
+
+.contact-details ul{
+	list-style: none;
+}
+
+.contact-details ul li span{
+	display: block;
+	float: left;
+	width: 16px;
+	height: 16px;
+	padding-right: 6px;
+	padding-bottom: 6px;
+}
+
+.contact-details ul li span.icon-last{
+	padding-right: 0px;
+}
+
+
+
+.contact-details ul li span.fb{
+	background: url('../images/icon_fb.png') no-repeat;
+	background-position: 0 0;
+}
+
+.contact-details ul li span.twtr{
+	background: url('../images/icon_twitter_active.png') no-repeat;
+	background-position: 0 0;
+}
+
+.contact-details ul li span.tumblr{
+	background: url('../images/icon_tumblr.png') no-repeat;
+	background-position: 0 0;
+}
+
+.contact-details ul li span.linkedIn{
+	background: url('../images/icon_linkedin.png') no-repeat;
+	background-position: 0 0;
+}
+
+
+.contact-details ul li span.gplus{
+	background: url('../images/icon_googleplus.png') no-repeat;
+	background-position: 0 0;
+}
+
+
+.contact-details ul li span.vimeo{
+	background: url('../images/icon_vimeo.png') no-repeat;
+	background-position: 0 0;
+}
+
+
+.contact-details ul li span.pinterest{
+	background: url('../images/icon_pintrest.png') no-repeat;
+	background-position: 0 0;
+}
+
+.contact-details ul li span.blogger{
+	background: url('../images/icon_blogger.png') no-repeat;
+	background-position: 0 0;
+}
+
+.contact-details ul li span.icona{
+	background: url('../images/icona.png') no-repeat;
+	background-position: 0 0;
+}
+
+.contact-details ul li span.iconb{
+	background: url('../images/iconb.png') no-repeat;
+	background-position: 0 0;
+}
+
+.contact-details ul li span.iconc{
+	background: url('../images/iconc.png') no-repeat;
+	background-position: 0 0;
+}
+
+.contact-details ul li span.icond{
+	background: url('../images/icond.png') no-repeat;
+	background-position: 0 0;
+}
+
+.contact-details ul li span.rssfeed{
+	background: url('../images/icon_rssfeed.png') no-repeat;
+	background-position: 0 0;
+}
