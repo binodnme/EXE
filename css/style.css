@@ -238,16 +238,61 @@ div.menu ul li a{
 .purchase .purchase-top {
     font-family: 'raleway';
     font-weight: bold;
-    font-size: 32px;
+    /*font-size: 32px;*/
+	font-size: 35px;
     color: white;
     line-height: 35px;
+    padding-top: 70px;
 }
 
 .purchase .purchase-middle{
     font-family: 'raleway';
-    font-size: 25px;
+    /*font-size: 25px;*/
+    font-size: 23px;
     color: white;
-    line-height: 29px;
+    line-height: 40px;
+    padding-bottom: 30px;
+}
+
+
+.button-wrapper{
+	width: 31.6239%;
+	margin: 0px auto;
+	background: white;
+}
+
+.button-wrapper .button{
+	width: 45.9459%;
+	height: 54px;
+	border-radius: 5px;
+}
+
+.button-wrapper .button.buy-this{
+	float: left;
+	background: #363636;
+}
+
+.button-wrapper .button.screenshots{
+	float: right;
+	height: 50px;
+	border: 2px solid white;
+	background: none;
+}
+
+
+.button-wrapper .button input{
+	width: 100%;
+	height: 54px;
+	background: none;
+	border: none;
+	font-family: 'raleway';
+	font-weight: bold;
+	font-size: 14px;
+	color: white;
+}
+
+.button-wrapper .screenshots input{
+	height: 50px;
 }
 
 
@@ -276,7 +321,8 @@ div.menu ul li a{
 	font-family: 'roboto';
 	font-size: 10px;
 	font-weight: bold;
-	vertical-align: bottom;
+	color: #373737;
+	padding-top: 23px;
 }
 
 .content .description-wrapper{
@@ -322,7 +368,7 @@ a.read-more .arrow-right{
 	width: 100%;
 	height: 42px;
 	border: none;
-	background: #171717;
+	background: none;
 }
 
 .content .news-letter .email-input{
@@ -331,7 +377,15 @@ a.read-more .arrow-right{
 	position: relative;
 }
 
-.content .privacy-policy{
+.content .news-letter .email-input .input-wrapper{
+	width: 100%;
+	height: 42px;
+	background: #171717;
+	border-radius: 5px;
+}
+
+.content .privacy-policy a{
+	text-decoration: none;
 	font-family: 'raleway';
 	font-size: 13px;
 	color: #464646;

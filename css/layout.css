@@ -177,20 +177,22 @@
 
 .purchase-wrapper{
 	width: 100%;
-	background: #DF9D46;
+	/*background: #DF9D46;*/
+	background: #e5493a;
 }
 
 .main-purchase-wrapper{
 	max-width: 120em;
 	height: 306px;
-	background: #E72C94;
+	/*background: #E72C94;*/
 	margin: 0px auto;
 }
 
 .purchase{
 	width: 60.9375%;
 	margin: 0px auto;
-	background: #42279A;
+	/*background: #42279A;*/
+	/*background: #e5493a;*/
     text-align: center;
 }
 
