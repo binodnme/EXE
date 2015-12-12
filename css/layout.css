@@ -4,22 +4,23 @@
 
 .header-wrapper{
 	width: 100%;
-	/*background: #FFFFFF;*/
-	background: red;
-	height: 75px;
+	background: #FFFFFF;
+	/*background: red;*/
+	/*height: 101px;*/
 }
 
 .main-header{
 	max-width: 120em; 		/*1920px*/
-	height: 75px;
-	background-color: blue;
+	/*height: 101px;*/
+	/*background-color: blue;*/
 	margin: 0px auto;   
 }
 
 .header-content{
-	width: 60.9375%;
+	width: 60.9375%;		/*1170*/
 	margin: 0px auto;
 	background: green;
+	/*height: 101px;*/
 }
 
 .slider-wrapper{
@@ -37,38 +38,108 @@
 
 .stmt-wrapper{
 	width: 100%;
-	background: #9A1A1A;
+	background: #e5493a ;
 }
 
 .main-stmt-wrapper{
 	max-width: 120em;
-	height: 158px;
-	background: #3A9D4C;
+/*	height: 158px;*/
+/*	background: #3A9D4C;*/
 	margin: 0px auto;
 }
 
 .stmt{
 	width: 60.9375%;
 	margin: 0px auto;
-	background: #B2C3C5;
+    padding-top: 40px;
+    padding-bottom: 56px;
+/*    background: #B2C3C5;*/
+    text-align: center;
 }
+
 
 .service-wrapper{
 	width: 100%;
-	background: #2B4BB3;
+	background: #FFFFFF;
 }
 
 .main-service-wrapper{
 	max-width: 120em;
-	height: 399px;
-	background: #39EB26;
+	/*height: 399px;*/
+	/*background: #39EB26;*/
 	margin: 0px auto;
 }
 
 .services{
 	width: 60.9375%;
 	margin: 0px auto;
-	background: #52D371;
+	/*background: #52D371;*/
+
+}
+
+/*.services-left{
+	width: 48.7179%;
+	height: 399px;
+	float: left;
+	background: #697895;
+	padding-top: 80px;
+	padding-bottom: 80px;	
+}*/
+
+/*.services-right{
+	width: 48.7179%	;
+	height: 399px;
+	float: right;
+	background: #583590;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+*/
+.clean-design{
+	/*width: 47.3684%;*/
+	width: 23.0769%;
+	/*height: 239px;*/
+	float: left;
+	/*background: #87DEBA;*/
+	padding-top: 80px;
+	padding-bottom: 80px;
+	/*padding-right: 30px;*/
+	padding-right: 2.5641%;
+}
+
+.branding{
+	/*width: 47.3684%;*/
+	width: 23.0769%;
+	/*height: 239px;*/
+	float: left;
+	/*background: #A33949;*/
+	padding-top: 80px;
+	padding-bottom: 80px;
+	/*padding-right: 30px;*/
+	padding-right: 2.5641%;
+}
+
+.responsive{
+	/*width: 47.3684%;*/
+	width: 23.0769%;
+	/*height: 239px;*/
+	float: left;
+	/*background: #AE582A;*/
+	padding-top: 80px;
+	padding-bottom: 80px;
+	/*padding-right: 30px;*/
+	padding-right: 2.5641%;
+}
+
+.development{
+	/*width: 47.3684%;*/
+	width: 23.0769%;
+	/*height: 239px;*/
+	float: left;
+	/*background: #D6C63F;*/
+	padding-top: 80px;
+	padding-bottom: 80px;
+	/*padding-right: 30px;*/
 }
 
 
@@ -130,9 +201,10 @@
 }
 
 .purchase{
-	width: 39.7917%;
+	width: 60.9375%;
 	margin: 0px auto;
 	background: #42279A;
+    text-align: center;
 }
 
 .footer-wrapper{
