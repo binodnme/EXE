@@ -1,0 +1,112 @@
+
+@media screen and (max-width: 1300px){
+	
+	.slider-long .slide{
+		min-height: 300px;
+	}
+
+	.slider-long .slide .slide-info{
+		padding-left: 100px;
+		padding-top: 100px;
+	}
+
+
+	.slide-info .slide-title .title-top{
+		font-size: 50px;
+	}
+
+	.slide-info .slide-title .title-bottom{
+		font-size: 30px;
+		line-height: 40px;
+	}
+
+	.slide-info .slide-desc{
+		font-size: 18px;
+		padding-bottom: 25px;
+		line-height: 20px;
+	}	
+
+	.slide-info .button-wrapper{
+		width: 100px;
+		height: 30px;
+	}
+
+	.slide-info .button-wrapper input{
+		height: 30px;
+		font-size: 10px;
+	}
+
+	.slider-wrapper .arrow{
+		width: 20px;
+		height: 20px;
+		line-height: 20px;
+		font-size: 12px;
+	}
+
+	.slider-wrapper .arrow.arrow-left{
+		left: 50px;
+	}
+	.slider-wrapper .arrow.arrow-right{
+		right:50px;
+	}
+
+
+	.stmt .stmt-top {
+	    font-size: 20px;
+	    line-height: 30px;
+	}
+
+	.stmt .stmt-bottom{
+	    font-size: 15px;
+	   	line-height: 18px;
+	}	
+
+
+	.service{
+		width: 40%;
+	}
+
+	.achievement{
+		width: 40%;
+	}
+
+	.blog-post{
+		width: 100%;
+		padding-right: 0px;
+	}
+
+
+	.purchase .purchase-top {
+	    font-size: 24px;
+	    line-height: 33px;
+	}
+
+	.purchase .purchase-middle{
+	    font-size: 15px;
+	    line-height: 18px;
+	}
+
+
+	.button-wrapper .button{
+		height: 44px;
+		border-radius: 5px;
+	}
+
+	.button-wrapper .button.screenshots{
+		height: 40px;
+	}
+
+
+	.button-wrapper .button input{
+		height: 44px;
+		font-size: 10px;
+	}
+
+	.button-wrapper .screenshots input{
+		height: 40px;
+	}
+
+	.content{
+		width: 40%;
+	}
+}

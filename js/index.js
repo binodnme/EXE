@@ -73,3 +73,74 @@ function changeSlide(slideIndex){
 	// intervalId=setInterval(slide, 3000);
 
 }
+
+
+
+
+var achievCounter = document.getElementsByClassName('achievement-counter')[0];
+var achievCounter1 = document.getElementsByClassName('achievement-counter')[1];
+var achievCounter2 = document.getElementsByClassName('achievement-counter')[2];
+var achievCounter3 = document.getElementsByClassName('achievement-counter')[3];
+
+function isElementInViewport(el) {
+    var rect = el.getBoundingClientRect();
+
+    return rect.bottom > 0 &&
+        rect.right > 0 &&
+        rect.left < (window.innerWidth || document. documentElement.clientWidth) /*or $(window).width() */ &&
+        rect.top < (window.innerHeight || document. documentElement.clientHeight) /*or $(window).height() */;
+}
+
+var sc=0, cp=0, loa=0, wl=0;
+var scFinal = 6587;
+var cpFinal = 896;
+var loaFinal = 1674;
+var wlFinal = 769;
+
+var counterInterval = window.setInterval(function(){
+	if(isElementInViewport(achievCounter)){
+		var intId = window.setInterval(function(){
+			
+			if(scFinal!=sc){
+				if((scFinal-sc)>=10){
+					sc+=10;	
+				}else{
+					sc+=1;
+				}
+			}
+
+			if(cpFinal!=cp){
+				if((cpFinal-cp)>=5){
+					cp+=5;	
+				}else{
+					cp+=1;
+				}	
+			}
+
+			if(loaFinal!=loa){
+				if((loaFinal-loa)>=5){
+					loa+=5;	
+				}else{
+					loa+=1;
+				}	
+			}
+
+			if(wlFinal!=wl){
+				if((wlFinal-wl)>=5){
+					wl+=5;	
+				}else{
+					wl+=1;
+				}	
+			}
+			
+			achievCounter.innerHTML = sc;
+			achievCounter1.innerHTML = cp;
+			achievCounter2.innerHTML = loa;
+			achievCounter3.innerHTML = wl;
+			if(sc==scFinal && cp==cpFinal && loa==loaFinal && wl==wlFinal){
+				window.clearInterval(intId);
+			}
+		},1);
+		window.clearInterval(counterInterval);
+	}
+},500);

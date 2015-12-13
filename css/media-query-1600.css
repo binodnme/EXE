@@ -1,0 +1,174 @@
+
+@media screen and (max-width: 1600px){
+	
+	.slider-long .slide{
+		min-height: 500px;
+	}
+
+	.slider-long .slide .slide-info{
+		padding-left: 100px;
+		padding-top: 100px;
+	}
+
+
+	.slide-info .slide-title .title-top{
+		font-size: 60px;
+	}
+
+	.slide-info .slide-title .title-bottom{
+		font-size: 40px;
+		line-height: 60px;
+	}
+
+	.slide-info .slide-desc{
+		font-size: 20px;
+		padding-bottom: 30px;
+		line-height: 20px;
+	}	
+
+	.slide-info .button-wrapper{
+		height: 45px;
+	}
+
+	.slide-info .button-wrapper input{
+		height: 45px;
+		font-size: 12px;
+	}
+
+	.slider-wrapper .arrow{
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+	}
+
+
+	.stmt .stmt-top {
+	    font-size: 24px;
+	    line-height: 35px;
+	}
+
+	.stmt .stmt-bottom{
+	    font-size: 17px;
+	   	line-height: 20px;
+	}
+	
+	.achievement-title{
+		font-size: 20px;
+	}
+
+
+	.post-date{
+		font-size: 12px;
+	}
+
+	.post-details .post-title{
+		font-size: 16px;
+	}
+
+	.post-details .post-desc{
+		font-size: 12px;
+		line-height: 17px;
+	}
+
+	.purchase .purchase-top {
+	    font-size: 26px;
+	    line-height: 35px;
+	}
+
+	.purchase .purchase-middle{
+	    font-size: 17px;
+	    line-height: 20px;
+	}
+
+
+	.button-wrapper .button{
+		height: 48px;
+		border-radius: 5px;
+	}
+
+	.button-wrapper .button.screenshots{
+		height: 44px;
+	}
+
+
+	.button-wrapper .button input{
+		height: 48px;
+		font-size: 12px;
+	}
+
+	.button-wrapper .screenshots input{
+		height: 44px;
+	}
+
+
+	.footer-logo .moto{
+		font-size: 9px;
+		padding-top: 12px;
+	}
+
+	.content .description-wrapper{
+		font-size: 11px;
+	}	
+
+	a.read-more{
+		font-size: 12px;
+	}
+
+	.content .news-letter p{
+		font-size: 16px;
+	}
+
+	.content .news-letter .email-input input{
+		height: 38px;
+	}
+
+	
+	.content .news-letter .email-input .input-wrapper{
+		height: 38px;
+	}
+
+	.content .privacy-policy a{
+		font-size: 10px;
+	}
+
+	.content-title{
+		font-size: 18px;
+	}
+
+	.news .news-details .news-title, .tweet{
+		font-size: 11px;
+		line-height: 16px;
+	}
+
+	.news .news-details .news-date, .tweet-time{
+		font-size: 10px;
+		line-height: 25px;
+	}
+
+	.content .pseudo-bottom-bar{
+		width: 48px;
+		height: 30px;
+	}
+
+	.twitter-pic{
+		padding-right: 10px;
+	}
+	
+	.contact-medium{
+		font-size: 11px;
+		line-height: 24px;
+		padding-right: 10px;
+	}
+
+	.contact-details{
+		font-size: 11px;
+		line-height: 16px;
+	}
+
+	span.place {
+	    font-size: 9px;
+	}
+
+
+
+}

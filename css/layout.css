@@ -39,10 +39,12 @@
 .slider-long .slide{
 	width: 33.33333333%;
 	float: left;
+	min-height: 707px;
 }
 
 .slider-long .slide img{
 	width: 100%;
+
 }
 
 .slider-long .slide.slide1{
@@ -73,15 +75,6 @@
 	/*background: blue;*/
 }
 
-
-
-/*.main-slider{
-	max-width: 120em;
-	height: 707px;
-	background: #C95757;
-	margin: 0px auto;
-}
-*/
 .stmt-wrapper{
 	width: 100%;
 	background: #e5493a ;
@@ -205,7 +198,7 @@
 	margin: 0px auto;
 	/*background: #B36E58;*/
 	padding-top: 40px;
-	padding-bottom: 104px;
+	/*padding-bottom: 104px;*/
 	/*height: 487px;*/
 }
 
@@ -213,7 +206,9 @@
 	float: left;
 	width: 31.6239%;
 	/*background: #fafafa;*/
-	padding-right: 30px;
+	/*padding-right: 30px;*/
+	padding-right: 2.5641%;
+	padding-bottom: 104px;
 	/*padding-top: 40px;*/
 }
 

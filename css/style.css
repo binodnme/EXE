@@ -51,6 +51,9 @@ div.menu ul li a{
 	top: 50%;
 	background-color: #e6e6e6;
 	border-radius: 5px;
+	line-height: 42px;
+	color: white;
+	text-align: center;
 }
 
 
@@ -62,22 +65,16 @@ div.menu ul li a{
 
 .slider-wrapper .arrow.arrow-left{
 	left: 100px;
-	text-align: center;
-	color: white;
-	line-height: 42px;
 }
 .slider-wrapper .arrow.arrow-right{
 	right:100px;
-	text-align: center;
-	color: white;
-	line-height: 42px;
 }
 
 
 .slider-long .slide .slide-info{
 	width: 100%;
 	padding-top: 200px;
-	padding-bottom: 209px;
+	/*padding-bottom: 209px;*/
 	/*height: 298px;*/
 	color: #363636;
 	/*background: #8EC58E;*/
@@ -121,7 +118,6 @@ div.menu ul li a{
 	float: left;
 	background: #e5493a;
 	border-radius: 5px;
-
 }
 
 .slide-info .button-wrapper input{
@@ -133,6 +129,7 @@ div.menu ul li a{
 	font-weight: bold;
 	font-size: 14px;
 	color: white;
+	cursor: pointer;
 }
 
 
@@ -179,6 +176,18 @@ div.menu ul li a{
 
 .service-info{
 	text-align: center;
+}
+
+.service:hover{
+	cursor: pointer;
+}
+
+.service:hover .service-title{
+	color: #e5493a;
+}
+
+.service:hover .service-description{
+	color: black;
 }
 
 .service-title{
@@ -246,6 +255,30 @@ div.menu ul li a{
 	color: white;
 	/*height: 44px;	*/
 }
+
+
+
+.blog-post:hover {
+	cursor: pointer;
+}
+
+.blog-post:hover .post-title{
+	color: #e5493a;
+}
+
+.blog-post:hover .post-desc{
+	color: black;
+}
+
+.blog-post:hover .read-more{
+	color: #e5493a;
+}
+
+.blog-post:hover .post-bottom-bar{
+	width: 83.7838%;
+	border-bottom: 2px solid #e5493a;
+}
+
 
 
 .blog-title{
@@ -358,6 +391,10 @@ div.menu ul li a{
 	border-radius: 5px;
 }
 
+.button-wrapper .button input:hover{
+	cursor: pointer;
+}
+
 .button-wrapper .button.buy-this{
 	float: left;
 	background: #363636;
@@ -438,10 +475,7 @@ a.read-more{
 }
 
 a.read-more.active{
-	text-decoration: none;
 	color: #e14f36;
-	font-family: 'roboto';
-	font-size: 14px;
 }
 
 a.read-more .arrow-right{
@@ -506,6 +540,21 @@ a.read-more .arrow-right{
 .content .news-wrapper, .tweet-wrapper, .contact-wrapper{
 	width: 100%;
 }
+
+
+.news:hover{
+	cursor: pointer;
+}
+
+.news:hover .news-main .news-details .news-title{
+	color: #e5493a;
+}
+
+.news:hover .news-main .news-details .news-date{
+	color: white;
+}
+
+
 
 .news .news-main, .tweets .tweet-main, .contact .contact-main{
 	width: 100%;
