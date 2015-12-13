@@ -44,6 +44,79 @@ div.menu ul li a{
 	/*padding-bottom: 10px;*/
 }
 
+
+
+.slider-wrapper .arrow{
+	width: 42px;
+	height: 42px;
+	position: absolute;
+	left: 100px;
+	top: 50%;
+	background-color: red;
+}
+
+.slider-long .slide .slide-info{
+	width: 100%;
+	padding-top: 200px;
+	padding-bottom: 209px;
+	/*height: 298px;*/
+	color: #363636;
+	/*background: #8EC58E;*/
+
+}
+
+.slide-info .slide-title{
+
+}
+
+.slide-info .slide-desc{
+	width: 48.7179%;
+	font-family: 'raleway';
+	font-size: 27px;
+	color: #626262;
+	padding-bottom: 50px;
+	line-height: 30px;
+}
+
+.slide-info .slide-title .title-top{
+	font-family: 'raleway';
+	font-weight: bold;
+	font-size: 71px;
+}
+
+.slide-info .slide-title .title-bottom{
+	font-family: 'raleway';
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 60px;
+}
+
+.slide-info .slide-title .title-bottom .highlight-red{
+	color: #e5493a;
+}
+
+
+.slide-info .button-wrapper{
+	width: 14.5299%;
+	height: 54px;
+	float: left;
+	background: #e5493a;
+	border-radius: 5px;
+
+}
+
+.slide-info .button-wrapper input{
+	width: 100%;
+	height: 54px;
+	border: none;
+	background: none;
+	font-family: 'raleway';
+	font-weight: bold;
+	font-size: 14px;
+	color: white;
+}
+
+
 .stmt .stmt-top {
     font-family: 'raleway';
     font-weight: bold;
@@ -258,7 +331,6 @@ div.menu ul li a{
 .button-wrapper{
 	width: 31.6239%;
 	margin: 0px auto;
-	background: white;
 }
 
 .button-wrapper .button{
