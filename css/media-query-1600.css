@@ -1,5 +1,16 @@
 
 @media screen and (max-width: 1600px){
+
+	div.menu{
+		padding-top: 33px;
+		padding-bottom: 46px;
+		font-size: 11px;
+
+	}
+
+	.header-content .logo {
+	    padding-top: 32px;
+	}
 	
 	.slider-long .slide{
 		min-height: 500px;
@@ -163,6 +174,10 @@
 	.contact-details{
 		font-size: 11px;
 		line-height: 16px;
+	}
+
+	.contact-details ul li span.icon-last{
+		padding-right: 6px;
 	}
 
 	span.place {

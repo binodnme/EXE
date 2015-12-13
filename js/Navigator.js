@@ -6,6 +6,7 @@ function Navigator(element) {
 		div.setAttribute('class', 'nav');
 		div.style.position= 'absolute';
 		var ul = document.createElement('ul');
+		ul.setAttribute('class','nav-ul')
 
 		for(var i=0; i<imageNumber; i++){
 			var li = document.createElement('li');
@@ -26,7 +27,8 @@ function Navigator(element) {
 	}
 
 	this.mark = function(active){
-		var ul = document.getElementsByTagName("ul")[0];
+		// var ul = document.getElementsByTagName("ul")[0];
+		var ul = document.getElementsByClassName('nav-ul')[0];
 
 		for(var i=0; i<ul.children.length; i++){
 			ul.children[i].children[0].style.backgroundColor = '#85A18C';

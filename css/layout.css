@@ -19,9 +19,12 @@
 .header-content{
 	width: 60.9375%;		/*1170*/
 	margin: 0px auto;
-	background: green;
+	/*background: green;*/
 	/*height: 101px;*/
 }
+
+
+
 
 .slider-wrapper{
 	width: 100%;

@@ -4,7 +4,7 @@
 	padding-top: 24px;
 	padding-bottom: 33px;
 
-	background: red;
+	/*background: red;*/
 }
 
 .header-content .logo img{
@@ -16,25 +16,49 @@ div.menu{
 	float: right;
 	padding-top: 33px;
 	padding-bottom: 46px;
+	font-family: 'raleway';
+    font-weight: bold;
+	font-size: 14px;
 
 }
 
-div.menu{
-	font-family: 'roboto';
-    font-weight: bold;
-	font-size: 14px;
+div.menu ul{
+	list-style: none;
+}
+
+div.menu ul li{
+	display: inline-block;
+	float: left;
+	padding-right: 30px;
+
+}
+
+div.menu ul li:hover a{
+	color: #e5493a;
 }
 
 div.menu ul li a{
 	display: block;
 	text-decoration: none;
 	color: black;
+	background-color: none;
+}
+
+div.menu ul li a.active{
+	color: #e5493a;
+}
+
+div.menu ul li a.active .small-bar{
+	border-bottom: 2px solid #e5493a;
 }
 
 .small-bar{
 	display: block;
 	width: 8px;
 	height: 2px;
+}
+
+.small-bar.active{
 	background: red;
 }
 
@@ -43,6 +67,8 @@ div.menu ul li a{
 	padding-top: 10px;
 	/*padding-bottom: 10px;*/
 }
+
+
 
 .slider-wrapper .arrow{
 	width: 42px;
