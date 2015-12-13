@@ -44,16 +44,35 @@ div.menu ul li a{
 	/*padding-bottom: 10px;*/
 }
 
-
-
 .slider-wrapper .arrow{
 	width: 42px;
 	height: 42px;
 	position: absolute;
-	left: 100px;
 	top: 50%;
-	background-color: red;
+	background-color: #e6e6e6;
+	border-radius: 5px;
 }
+
+
+
+.slider-wrapper .arrow:hover{
+	background-color: #e5493a;
+	cursor: pointer;
+}
+
+.slider-wrapper .arrow.arrow-left{
+	left: 100px;
+	text-align: center;
+	color: white;
+	line-height: 42px;
+}
+.slider-wrapper .arrow.arrow-right{
+	right:100px;
+	text-align: center;
+	color: white;
+	line-height: 42px;
+}
+
 
 .slider-long .slide .slide-info{
 	width: 100%;
@@ -675,4 +694,28 @@ span.place{
 .contact-details ul li span.rssfeed{
 	background: url('../images/icon_rssfeed.png') no-repeat;
 	background-position: 0 0;
+}
+
+
+
+div.nav{
+	position: absolute;
+	bottom: 0;
+}
+div.nav ul{
+	list-style: none;
+}
+
+div.nav ul li {
+	float: left;
+	width: 20px;
+	height: 20px;
+}
+
+div.nav ul li a{
+	display: block;
+	width: 10px;
+	height: 10px;
+	border-radius:8px;
+	background: white;
 }

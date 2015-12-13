@@ -28,11 +28,12 @@
 	background: grey;
 	/*height: 707px;*/
 	overflow: hidden;
+	position: relative;
 }
 
 .slider-long{
 	width: 300%;
-	background: red;
+	/*background: red;*/
 }
 
 .slider-long .slide{
@@ -48,21 +49,21 @@
 	background: url('../images/slider1.jpg') no-repeat;
 	background-position: 0 0;
 	background-size: 100%;
-	min-height: 707px;
+	/*min-height: 707px;*/
 }
 
 .slider-long .slide.slide2{
 	background: url('../images/slider2.jpg') no-repeat;
 	background-position: 0 0;
 	background-size: 100%;
-	min-height: 707px;
+	/*min-height: 707px;*/
 }
 
 .slider-long .slide.slide3{
 	background: url('../images/slider3.jpg') no-repeat;
 	background-position: 0 0;
 	background-size: 100%;
-	min-height: 707px;
+	/*min-height: 707px;*/
 }
 
 .slider-long .slide .slide-info-wrapper{
