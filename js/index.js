@@ -144,3 +144,8 @@ var counterInterval = window.setInterval(function(){
 		window.clearInterval(counterInterval);
 	}
 },500);
+
+
+function scrollToTop(){
+	window.scroll(0,0);
+}
