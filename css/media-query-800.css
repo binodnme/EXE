@@ -68,6 +68,11 @@
 		width: 100%;
 	}
 
+	.button-wrapper{
+		width: 100%;
+		/*float: none;*/
+	}
+
 	.content{
 		width: 100%;
 	}

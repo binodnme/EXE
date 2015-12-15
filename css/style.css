@@ -413,24 +413,37 @@ div.menu ul li a.active .small-bar{
 
 .button-wrapper .button{
 	width: 45.9459%;
-	height: 54px;
+	/*height: 54px;*/
+	height: 50px;
 	border-radius: 5px;
+	border: 2px solid white;
+	background: none;
+}
+
+.button-wrapper .button:hover{
+	/*height: 54px;*/
+	/*border:none;*/
+	border: 2px solid #363636;
+	background: #363636;
 }
 
 .button-wrapper .button input:hover{
 	cursor: pointer;
+	/*height: 54px;
+	background: #363636;
+	border:none;*/
 }
 
 .button-wrapper .button.buy-this{
-	float: left;
-	background: #363636;
+	float: left;/*
+	background: #363636;*/
 }
 
 .button-wrapper .button.screenshots{
 	float: right;
-	height: 50px;
+	/*height: 50px;
 	border: 2px solid white;
-	background: none;
+	background: none;*/
 }
 
 
@@ -445,9 +458,20 @@ div.menu ul li a.active .small-bar{
 	color: white;
 }
 
-.button-wrapper .screenshots input{
-	height: 50px;
+/*.button-wrapper .button input{
+	width: 100%;
+	height: 54px;
+	background: none;
+	border: none;
+	font-family: 'raleway';
+	font-weight: bold;
+	font-size: 14px;
+	color: white;
 }
+*/
+/*.button-wrapper .screenshots input{
+	height: 50px;
+}*/
 
 
 

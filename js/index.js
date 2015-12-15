@@ -4,35 +4,25 @@ console.log('start');
 var slide = document.getElementsByClassName('slide')[0];
 
 var style = window.getComputedStyle(slide);
-// console.log(style);
 
 var slideWidth= parseInt(style.getPropertyValue('width'));
-// console.log('width: ',slideWidth)
-
 
 var active = 1;
 var slider = document.getElementsByClassName("slider-long")[0];
 var slides = slider.children;
 var slide = slider.children[0];
 
-
 var animator = new Animator(slider);
 
 var navElement = document.getElementsByClassName('slider-wrapper')[0];
-console.info('navElement:', navElement);
 
 var navigate = new Navigator(navElement);
 navigate.generateNavigator(slides.length, slideWidth);
 navigate.mark(active);
 
-
 function slideImage(){
-	
-	console.info('say hello');
 	active = active == slides.length ? active = 1 : ++active;
 	var ml = (slideWidth * (active-1) * -1);
-	console.info('ml: ',ml);
-
 	animator.animate('margin-left',ml,1000);
 	navigate.mark(active);
 }

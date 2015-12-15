@@ -63,16 +63,22 @@
 
 
 	.service{
-		width: 40%;
+		width: 45%;
+		padding-top: 30px;
+		padding-bottom: 40px;
+	
 	}
 
 	.achievement{
-		width: 40%;
+		width: 45%;
+		padding-top: 50px;
+		padding-bottom: 20px;
 	}
 
 	.blog-post{
 		width: 100%;
 		padding-right: 0px;
+		padding-bottom: 40px;
 	}
 
 
@@ -86,7 +92,12 @@
 	    line-height: 18px;
 	}
 
+	.button-wrapper{
+		width: 50%;
+		/*float: none;*/
+	}
 
+/*
 	.button-wrapper .button{
 		height: 44px;
 		border-radius: 5px;
@@ -104,9 +115,11 @@
 
 	.button-wrapper .screenshots input{
 		height: 40px;
-	}
+	}*/
 
 	.content{
 		width: 40%;
+		padding-top: 50px;
+		padding-bottom: 35px;
 	}
 }
