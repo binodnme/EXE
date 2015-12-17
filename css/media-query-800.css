@@ -31,8 +31,9 @@
 		height: 30px;
 	}
 
-	.slide-info .button-wrapper input{
-		height: 30px;
+
+	.slide-info .button-wrapper a{
+		line-height: 30px;
 		font-size: 10px;
 	}
 

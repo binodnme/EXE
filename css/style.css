@@ -146,7 +146,7 @@ div.menu ul li a.active .small-bar{
 	border-radius: 5px;
 }
 
-.slide-info .button-wrapper input{
+/*.slide-info .button-wrapper input{
 	width: 100%;
 	height: 54px;
 	border: none;
@@ -156,6 +156,23 @@ div.menu ul li a.active .small-bar{
 	font-size: 14px;
 	color: white;
 	cursor: pointer;
+}*/
+
+.slide-info .button-wrapper a{
+	text-decoration: none;
+	display: block;
+	/*width: 100%;*/
+	height: 54px;
+	line-height: 54px;
+	text-align: center;
+	/*border: none;
+	background: none;*/
+	font-family: 'raleway';
+	font-weight: bold;
+	font-size: 14px;
+	color: white;
+
+	/*cursor: pointer;*/
 }
 
 
@@ -206,6 +223,26 @@ div.menu ul li a.active .small-bar{
 
 .service:hover{
 	cursor: pointer;
+}
+
+.service:hover .clean-design-logo{
+	background: url('../images/clean_design_active.png') no-repeat;
+	background-position: 50% 50%;
+}
+
+.service:hover .branding-logo{
+	background: url('../images/branding_active.png') no-repeat;
+	background-position: 50% 50%;
+}
+
+.service:hover .responsive-logo{
+	background: url('../images/responsive_active.png') no-repeat;
+	background-position: 50% 50%;
+}
+
+.service:hover .development-logo{
+	background: url('../images/development_active.png') no-repeat;
+	background-position: 50% 50%;
 }
 
 .service:hover .service-title{
@@ -427,59 +464,33 @@ div.menu ul li a.active .small-bar{
 	background: #363636;
 }
 
-.button-wrapper .button input:hover{
+/*.button-wrapper .button input:hover{
 	cursor: pointer;
-	/*height: 54px;
-	background: #363636;
-	border:none;*/
+}
+*/
+.button-wrapper .button a{
+	display: block;
+	text-decoration: none;
+	font-family: 'raleway';
+	font-weight: bold;
+	font-size: 14px;
+	color: white;
+	text-align: center;
+	line-height: 50px;
+
 }
 
 .button-wrapper .button.buy-this{
-	float: left;/*
-	background: #363636;*/
+	float: left;
 }
 
 .button-wrapper .button.screenshots{
 	float: right;
-	/*height: 50px;
-	border: 2px solid white;
-	background: none;*/
 }
-
-
-.button-wrapper .button input{
-	width: 100%;
-	height: 54px;
-	background: none;
-	border: none;
-	font-family: 'raleway';
-	font-weight: bold;
-	font-size: 14px;
-	color: white;
-}
-
-/*.button-wrapper .button input{
-	width: 100%;
-	height: 54px;
-	background: none;
-	border: none;
-	font-family: 'raleway';
-	font-weight: bold;
-	font-size: 14px;
-	color: white;
-}
-*/
-/*.button-wrapper .screenshots input{
-	height: 50px;
-}*/
-
-
 
 .footer-logo{
 	width: 100%;
-	/*height: 41px;*/
 	padding-bottom: 28px;
-	/*background: green;*/
 	vertical-align: bottom;
 }
 

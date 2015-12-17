@@ -31,9 +31,10 @@
 		height: 30px;
 	}
 
-	.slide-info .button-wrapper input{
-		height: 30px;
+	.slide-info .button-wrapper a{
+		line-height: 30px;
 		font-size: 10px;
+
 	}
 
 	.slider-wrapper .arrow{
@@ -96,6 +97,18 @@
 		width: 50%;
 		/*float: none;*/
 	}
+
+	/*.button-wrapper .button a{
+		display: block;
+		text-decoration: none;
+		font-family: 'raleway';
+		font-weight: bold;
+		font-size: 14px;
+		color: white;
+		text-align: center;
+		line-height: 50px;
+
+	}*/
 
 /*
 	.button-wrapper .button{
