@@ -2,9 +2,13 @@ function Navigator(element) {
 	this.el = element;
 
 	this.generateNavigator = function(imageNumber, slideWidth){
-		var div = document.createElement('div');
-		div.setAttribute('class', 'nav');
-		div.style.position= 'absolute';
+		// var div = document.createElement('div');
+		var div = document.getElementsByClassName('slider-nav')[0];
+		while(div.firstChild){
+			div.removeChild(div.firstChild);
+		}
+		// div.setAttribute('class', 'nav');
+		// div.style.position= 'absolute';
 		var ul = document.createElement('ul');
 		ul.setAttribute('class','nav-ul')
 
@@ -14,7 +18,7 @@ function Navigator(element) {
 			a.setAttribute('href','#');
 			a.setAttribute('name', i)
 			a.setAttribute('onclick', 'changeSlide('+i+')');
-			
+
 			li.appendChild(a)
 			ul.appendChild(li);
 		}

@@ -13,7 +13,7 @@
 	max-width: 120em; 		/*1920px*/
 	/*height: 101px;*/
 	/*background-color: blue;*/
-	margin: 0px auto;   
+	margin: 0px auto;
 }
 
 .header-content{
@@ -93,10 +93,12 @@
 .stmt{
 	width: 60.9375%;
 	margin: 0px auto;
-    padding-top: 40px;
-    padding-bottom: 56px;
+  padding-top: 35px;
+  padding-bottom: 55px;
 /*    background: #B2C3C5;*/
-    text-align: center;
+  text-align: center;
+	background: url('../images/stmt-white.png') no-repeat;
+	background-position: 50% 100%;
 }
 
 

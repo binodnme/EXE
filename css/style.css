@@ -17,7 +17,7 @@ div.menu{
 	padding-top: 33px;
 	padding-bottom: 46px;
 	font-family: 'raleway';
-    font-weight: bold;
+  font-weight: bold;
 	font-size: 14px;
 
 }
@@ -27,10 +27,9 @@ div.menu ul{
 }
 
 div.menu ul li{
-	display: inline-block;
+	display:block;
 	float: left;
-	padding-right: 30px;
-
+	padding-right: 42px;
 }
 
 div.menu ul li:hover a{
@@ -42,7 +41,24 @@ div.menu ul li a{
 	text-decoration: none;
 	color: black;
 	background-color: none;
+	position: relative;
 }
+
+div.menu ul li a .down-arrow{
+	width: 13px;
+	height: 10px;
+	position: absolute;
+	right: -13px;
+	bottom: 0;
+	background: url('../images/menu_down_arrow_black.png') no-repeat;
+	background-position: 6px 3px;
+}
+
+div.menu ul li a.active .down-arrow{
+	background: url('../images/menu_down_arrow.png') no-repeat;
+	background-position: 6px 3px;
+}
+
 
 div.menu ul li a.active{
 	color: #e5493a;
@@ -74,7 +90,7 @@ div.menu ul li a.active .small-bar{
 	width: 42px;
 	height: 42px;
 	position: absolute;
-	top: 50%;
+	top: 46%;
 	background-color: #e6e6e6;
 	border-radius: 5px;
 	line-height: 42px;
@@ -96,19 +112,40 @@ div.menu ul li a.active .small-bar{
 	right:100px;
 }
 
+.slider-wrapper .slider-nav{
+	position: absolute;
+	bottom: 7.35502%;
+	/*left:48.0729%;*/
+}
+
+.slider-wrapper .slider-nav ul{
+	list-style: none;
+}
+
+.slider-wrapper .slider-nav ul li {
+	float: left;
+	width: 20px;
+	height: 20px;
+}
+
+.slider-wrapper .slider-nav ul li a{
+	display: block;
+	width: 10px;
+	height: 10px;
+	border-radius:8px;
+	background: white;
+}
+
+
 
 .slider-long .slide .slide-info{
 	width: 100%;
-	padding-top: 200px;
-	/*padding-bottom: 209px;*/
-	/*height: 298px;*/
+	padding-top: 185px;
 	color: #363636;
-	/*background: #8EC58E;*/
-
 }
 
 .slide-info .slide-title{
-
+	padding-bottom: 10px;
 }
 
 .slide-info .slide-desc{
@@ -129,7 +166,7 @@ div.menu ul li a.active .small-bar{
 .slide-info .slide-title .title-bottom{
 	font-family: 'raleway';
 	font-weight: bold;
-	font-size: 50px;
+	font-size: 52px;
 	line-height: 60px;
 }
 
@@ -145,18 +182,6 @@ div.menu ul li a.active .small-bar{
 	background: #e5493a;
 	border-radius: 5px;
 }
-
-/*.slide-info .button-wrapper input{
-	width: 100%;
-	height: 54px;
-	border: none;
-	background: none;
-	font-family: 'raleway';
-	font-weight: bold;
-	font-size: 14px;
-	color: white;
-	cursor: pointer;
-}*/
 
 .slide-info .button-wrapper a{
 	text-decoration: none;
@@ -182,6 +207,7 @@ div.menu ul li a.active .small-bar{
     font-size: 32px;
     color: white;
     line-height: 35px;
+		padding-bottom: 5px;
 }
 
 .stmt .stmt-bottom{
@@ -427,7 +453,7 @@ div.menu ul li a.active .small-bar{
     font-family: 'raleway';
     font-weight: bold;
     /*font-size: 32px;*/
-	font-size: 35px;
+	font-size: 32px;
     color: white;
     line-height: 35px;
     padding-top: 70px;
@@ -644,7 +670,7 @@ a.read-more .arrow-right{
 }
 
 .news-details{
-	
+
 }
 
 .news .news-details .news-title, .tweet{
@@ -712,7 +738,7 @@ span.place{
 	font-family: 'roboto';
 	font-size: 13px;
 	line-height: 20px;
-	color: #484848;	
+	color: #484848;
 }
 
 .mail-addr{
@@ -804,28 +830,4 @@ span.place{
 .contact-details ul li span.rssfeed{
 	background: url('../images/icon_rssfeed.png') no-repeat;
 	background-position: 0 0;
-}
-
-
-
-div.nav{
-	position: absolute;
-	bottom: 0;
-}
-div.nav ul{
-	list-style: none;
-}
-
-div.nav ul li {
-	float: left;
-	width: 20px;
-	height: 20px;
-}
-
-div.nav ul li a{
-	display: block;
-	width: 10px;
-	height: 10px;
-	border-radius:8px;
-	background: white;
 }

@@ -4,14 +4,14 @@
 	div.menu{
 		padding-top: 33px;
 		padding-bottom: 46px;
-		font-size: 11px;
+		font-size: 9px;
 
 	}
 
 	.header-content .logo {
 	    padding-top: 32px;
 	}
-	
+
 	.slider-long .slide{
 		min-height: 500px;
 	}
@@ -35,7 +35,7 @@
 		font-size: 20px;
 		padding-bottom: 30px;
 		line-height: 20px;
-	}	
+	}
 
 	.slide-info .button-wrapper{
 		height: 45px;
@@ -64,7 +64,7 @@
 	   	line-height: 20px;
 	}
 
-	
+
 	.achievement-title{
 		font-size: 20px;
 	}
@@ -121,7 +121,7 @@
 
 	.content .description-wrapper{
 		font-size: 11px;
-	}	
+	}
 
 	a.read-more{
 		font-size: 12px;
@@ -135,7 +135,7 @@
 		height: 38px;
 	}
 
-	
+
 	.content .news-letter .email-input .input-wrapper{
 		height: 38px;
 	}
@@ -166,7 +166,7 @@
 	.twitter-pic{
 		padding-right: 10px;
 	}
-	
+
 	.contact-medium{
 		font-size: 11px;
 		line-height: 24px;
