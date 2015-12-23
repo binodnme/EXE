@@ -15,9 +15,9 @@ div.menu{
 	width: 82.906%;
 	float: right;
 	padding-top: 33px;
-	padding-bottom: 46px;
+	padding-bottom: 43px;
 	font-family: 'raleway';
-  font-weight: bold;
+  	font-weight: bold;
 	font-size: 14px;
 
 }
@@ -53,6 +53,12 @@ div.menu ul li a .down-arrow{
 	background: url('../images/menu_down_arrow_black.png') no-repeat;
 	background-position: 6px 3px;
 }
+
+div.menu ul li:hover a .down-arrow{
+	background: url('../images/menu_down_arrow.png') no-repeat;
+	background-position: 6px 3px;
+}
+
 
 div.menu ul li a.active .down-arrow{
 	background: url('../images/menu_down_arrow.png') no-repeat;
@@ -140,12 +146,12 @@ div.menu ul li a.active .small-bar{
 
 .slider-long .slide .slide-info{
 	width: 100%;
-	padding-top: 185px;
+	padding-top: 190px;
 	color: #363636;
 }
 
 .slide-info .slide-title{
-	padding-bottom: 10px;
+	padding-bottom: 17px;
 }
 
 .slide-info .slide-desc{
@@ -348,8 +354,9 @@ div.menu ul li a.active .small-bar{
 
 
 .blog-post:hover {
-	cursor: pointer;
+	/*cursor: pointer;*/
 }
+
 
 .blog-post:hover .post-title{
 	color: #e5493a;
@@ -404,11 +411,72 @@ div.menu ul li a.active .small-bar{
 
 .post-pic{
 	width: 100%;
+	position: relative;
 }
 
 .post-pic img{
 	width: 100%;
 }
+
+.blog-post .post-pic .blog-pic-overlay{
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height:100%;
+	display: none;
+}
+
+.blog-pic-top-icon{
+	/*width: 41px;
+	height: 41px;*/
+	width: 11.0811%;
+}
+
+.blog-pic-top-icon img{
+	width: 100%;
+}
+
+.blog-post:hover .post-pic .blog-pic-overlay{
+	display: block;
+	background: black;
+	opacity: 0.5;
+}
+
+
+.blog-post:hover .post-pic .overlay-icon-wrapper .overlay-icons{
+	display: block;
+}
+
+
+.overlay-icon-wrapper{
+	/*display: none;*/
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.overlay-icons{
+	display: none;
+	margin: 0px auto;
+	width: 92px;
+	height: 42px;
+}
+
+.overlay-icons .search-icon {
+	float: left;
+	width: 42px;
+	height: 42px;
+}
+
+.overlay-icons .link-icon {
+	float: right;
+	width: 42px;
+	height: 42px;
+}
+
 
 .post-date{
 	width: 91.8919%;
@@ -630,7 +698,7 @@ a.read-more .arrow-right{
 
 
 .news:hover{
-	cursor: pointer;
+	/*cursor: pointer;*/
 }
 
 .news:hover .news-main .news-details .news-title{
@@ -712,6 +780,19 @@ a.read-more .arrow-right{
 }
 
 .tweet .hash, .tweet .mention{
+	color: white;
+}
+
+
+.tweets:hover{
+	/*cursor: pointer;*/
+}
+
+.tweets:hover .tweet-main .tweet-details .tweet{
+	color: #e5493a;
+}
+
+.tweets:hover .tweet-main .tweet-details .tweet-time{
 	color: white;
 }
 

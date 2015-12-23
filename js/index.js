@@ -70,6 +70,8 @@ window.onresize = function(){
 	var sw= parseInt(styl.getPropertyValue('width'));
 	navigate.generateNavigator(slides.length, sw);
 	navigate.mark(active);
+
+	alignIcon();
 }
 
 
@@ -99,8 +101,8 @@ var counterInterval = window.setInterval(function(){
 		var intId = window.setInterval(function(){
 
 			if(scFinal!=sc){
-				if((scFinal-sc)>=10){
-					sc+=10;
+				if((scFinal-sc)>=20){
+					sc+=20;
 				}else{
 					sc+=1;
 				}
@@ -145,4 +147,20 @@ var counterInterval = window.setInterval(function(){
 
 function scrollToTop(){
 	window.scroll(0,0);
+}
+
+
+alignIcon();
+function alignIcon(){
+	var overlayIconWrapper = document.getElementsByClassName('overlay-icon-wrapper')[0];
+	
+	var overlayIcon = document.getElementsByClassName('overlay-icons');
+
+	var style = window.getComputedStyle(overlayIconWrapper);
+	
+	var pHeight = parseFloat(style.getPropertyValue('height'));
+
+	for (var i = overlayIcon.length - 1; i >= 0; i--) {
+		overlayIcon[i].style.paddingTop = (pHeight-42)/2 +'px';
+	};
 }
