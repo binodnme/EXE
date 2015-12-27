@@ -471,10 +471,36 @@ div.menu ul li a.active .small-bar{
 	height: 42px;
 }
 
+.overlay-icons .search-icon a{
+	display: block;
+	width:42px;
+	height: 42px;
+	background: url('../images/blog_search_black.png') no-repeat;
+	background-position: 50% 50%;
+}
+
+.overlay-icons .search-icon a:hover{
+	background: url('../images/blog_search_red.png') no-repeat;
+	background-position: 50% 50%;
+}
+
 .overlay-icons .link-icon {
 	float: right;
 	width: 42px;
 	height: 42px;
+}
+
+.overlay-icons .link-icon a{
+	display: block;
+	width:42px;
+	height: 42px;
+	background: url('../images/blog_link_black.png') no-repeat;
+	background-position: 50% 50%;
+}
+
+.overlay-icons .link-icon a:hover{
+	background: url('../images/blog_link_red.png') no-repeat;
+	background-position: 50% 50%;
 }
 
 
