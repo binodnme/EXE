@@ -155,11 +155,11 @@ div.menu ul li a.active .small-bar{
 }
 
 .slide-info .slide-desc{
-	width: 48.7179%;
+	width: 65%;
 	font-family: 'raleway';
 	font-size: 27px;
 	color: #626262;
-	padding-bottom: 50px;
+	padding-bottom: 52px;
 	line-height: 30px;
 }
 
@@ -182,7 +182,7 @@ div.menu ul li a.active .small-bar{
 
 
 .slide-info .button-wrapper{
-	width: 14.5299%;
+	width: 19.5299%;
 	height: 54px;
 	float: left;
 	background: #e5493a;

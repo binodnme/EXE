@@ -21,58 +21,72 @@ navigate.generateNavigator(slides.length, slideWidth);
 navigate.mark(active);
 
 function slideImage(){
+	// slider.stop(true, true);
 	active = active == slides.length ? active = 1 : ++active;
 	var ml = (slideWidth * (active-1) * -1);
 	animator.animate('margin-left',ml,1000);
 	navigate.mark(active);
 }
-// var intervalId= window.setInterval(slideImage, 3000);
+var intervalId= window.setInterval(slideImage, 3000);
 
 function showNext(){
 	if(active!=slides.length){
-		// animator.finish();
-		// window.clearInterval(intervalId);
+		animator.finish();
+		window.clearInterval(intervalId);
 		active++;
 		var ml = (slideWidth * (active-1) * -1);
 		animator.animate("margin-left",ml,1000);
 		navigate.mark(active);
-		// intervalId=setInterval(slideImage, 3000);
+		intervalId=setInterval(slideImage, 3000);
 	}
 }
 
 function showPrevious(){
 	if(active!=1){
-		// animator.finish();
-		// window.clearInterval(intervalId);
+		animator.finish();
+		window.clearInterval(intervalId);
 		active--;
 		var ml = (slideWidth * (active-1) * -1);
 		animator.animate("margin-left",ml,1000);
 		navigate.mark(active);
-		// intervalId=setInterval(slideImage, 3000);
+		intervalId=setInterval(slideImage, 3000);
 	}
 }
 
 
 function changeSlide(slideIndex){
-	// animator.finish();
-	// window.clearInterval(intervalId);
+	animator.finish();
+	window.clearInterval(intervalId);
 	active = slideIndex+1;
 	var ml = (slideWidth * (active-1) * -1);
 	animator.animate("margin-left",ml,1000);
 	navigate.mark(active);
-	// intervalId=setInterval(slide, 3000);
+	intervalId=setInterval(slideImage, 3000);
 
 }
 
 
 window.onresize = function(){
 	var styl = window.getComputedStyle(slide);
-	var sw= parseInt(styl.getPropertyValue('width'));
-	navigate.generateNavigator(slides.length, sw);
+	slideWidth= parseInt(styl.getPropertyValue('width'));
+	navigate.generateNavigator(slides.length, slideWidth);
 	navigate.mark(active);
 
 	alignIcon();
 }
+
+window.addEventListener('focus', function(){
+	console.info('focused');
+	intervalId=setInterval(slideImage, 3000);
+});
+
+
+window.addEventListener('blur', function(){
+	console.info('blur');
+	animator.finish();
+	window.clearInterval(intervalId);
+
+});
 
 
 

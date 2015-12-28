@@ -22,11 +22,19 @@
 	}
 
 	.slider-long .slide{
-		min-height: 500px;
+		height: 500px;
+		/*min-height: 500px;*/
+	}
+
+
+	.slider-long .slide .slide-info-wrapper{
+		position: absolute;
+		top: 0;
+		left: 12.5%;
 	}
 
 	.slider-long .slide .slide-info{
-		padding-left: 100px;
+		/*padding-left: 100px;*/
 		padding-top: 100px;
 	}
 
