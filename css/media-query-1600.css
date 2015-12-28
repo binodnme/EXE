@@ -1,12 +1,21 @@
 
 @media screen and (max-width: 1600px){
 
+	.header-content{
+		width: 75%;		/*1170*/
+		margin: 0px auto;
+	}
+
+
+
 	div.menu{
 		padding-top: 33px;
 		padding-bottom: 46px;
-		font-size: 9px;
+		font-size: 12px;
 
 	}
+
+
 
 	.header-content .logo {
 	    padding-top: 32px;
