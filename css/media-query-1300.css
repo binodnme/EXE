@@ -99,37 +99,6 @@
 		/*float: none;*/
 	}
 
-	/*.button-wrapper .button a{
-		display: block;
-		text-decoration: none;
-		font-family: 'raleway';
-		font-weight: bold;
-		font-size: 14px;
-		color: white;
-		text-align: center;
-		line-height: 50px;
-
-	}*/
-
-/*
-	.button-wrapper .button{
-		height: 44px;
-		border-radius: 5px;
-	}
-
-	.button-wrapper .button.screenshots{
-		height: 40px;
-	}
-
-
-	.button-wrapper .button input{
-		height: 44px;
-		font-size: 10px;
-	}
-
-	.button-wrapper .screenshots input{
-		height: 40px;
-	}*/
 
 	.content{
 		width: 40%;

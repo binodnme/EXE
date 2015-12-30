@@ -20,14 +20,15 @@ var navigate = new Navigator(navElement);
 navigate.generateNavigator(slides.length, slideWidth);
 navigate.mark(active);
 
+
 function slideImage(){
-	// slider.stop(true, true);
 	active = active == slides.length ? active = 1 : ++active;
 	var ml = (slideWidth * (active-1) * -1);
 	animator.animate('margin-left',ml,1000);
 	navigate.mark(active);
 }
 var intervalId= window.setInterval(slideImage, 3000);
+
 
 function showNext(){
 	if(active!=slides.length){
@@ -40,6 +41,7 @@ function showNext(){
 		intervalId=setInterval(slideImage, 3000);
 	}
 }
+
 
 function showPrevious(){
 	if(active!=1){
@@ -75,14 +77,13 @@ window.onresize = function(){
 	alignIcon();
 }
 
+
 window.addEventListener('focus', function(){
-	console.info('focused');
 	intervalId=setInterval(slideImage, 3000);
 });
 
 
 window.addEventListener('blur', function(){
-	console.info('blur');
 	animator.finish();
 	window.clearInterval(intervalId);
 
@@ -103,6 +104,7 @@ function isElementInViewport(el) {
         rect.left < (window.innerWidth || document. documentElement.clientWidth) /*or $(window).width() */ &&
         rect.top < (window.innerHeight || document. documentElement.clientHeight) /*or $(window).height() */;
 }
+
 
 var sc=0, cp=0, loa=0, wl=0;
 var scFinal = 6587;

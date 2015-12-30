@@ -70,6 +70,10 @@
 		line-height: 30px;
 	}
 
+	.service{
+		padding-right: 15px;
+	}
+
 
 	.stmt .stmt-top {
 	    font-size: 24px;
@@ -80,12 +84,18 @@
 	    font-size: 17px;
 	   	line-height: 20px;
 	}
-
+	
+	.achievement{
+		padding-right: 15px;
+	}
 
 	.achievement-title{
 		font-size: 20px;
 	}
 
+	.blog-post{
+		padding-right: 20px;
+	}
 
 	.post-date{
 		font-size: 12px;
@@ -110,27 +120,6 @@
 	    line-height: 20px;
 	}
 
-/*
-	.button-wrapper .button{
-		height: 48px;
-		border-radius: 5px;
-	}
-
-	.button-wrapper .button.screenshots{
-		height: 44px;
-	}
-
-
-	.button-wrapper .button input{
-		height: 48px;
-		font-size: 12px;
-	}
-
-	.button-wrapper .screenshots input{
-		height: 44px;
-	}
-*/
-
 	.footer-logo .moto{
 		font-size: 9px;
 		padding-top: 12px;
@@ -142,6 +131,11 @@
 
 	a.read-more{
 		font-size: 12px;
+	}
+
+	
+	.content{
+		padding-right: 15px;
 	}
 
 	.content .news-letter p{
