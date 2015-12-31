@@ -87,7 +87,6 @@ div.menu ul li a.active .small-bar{
 .menu-list{
 	display: block;
 	padding-top: 10px;
-	/*padding-bottom: 10px;*/
 }
 
 
@@ -313,7 +312,7 @@ div.menu ul li a.active .small-bar{
 }
 
 .achievement-title{
-	font-family: 'roboto';
+	font-family: 'raleway';
 	font-size: 25px;
 	font-weight: bold;
 	line-height: 72px;
