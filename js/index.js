@@ -166,7 +166,11 @@ function scrollToTop(){
 }
 
 
-alignIcon();
+window.onload = function(){
+	alignIcon();
+}
+
+
 function alignIcon(){
 	var overlayIconWrapper = document.getElementsByClassName('overlay-icon-wrapper')[0];
 	
