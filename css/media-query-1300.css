@@ -6,7 +6,6 @@
 	}
 
 	.slider-long .slide .slide-info{
-		/*padding-left: 100px;*/
 		padding-top: 100px;
 		padding-bottom: 50px;
 	}
@@ -48,10 +47,10 @@
 	.slider-wrapper .arrow.arrow-left{
 		left: 50px;
 	}
+	
 	.slider-wrapper .arrow.arrow-right{
 		right:50px;
 	}
-
 
 	.stmt .stmt-top {
 	    font-size: 20px;
@@ -62,7 +61,6 @@
 	    font-size: 15px;
 	   	line-height: 18px;
 	}	
-
 
 	.service{
 		width: 45%;
@@ -83,6 +81,10 @@
 		padding-bottom: 40px;
 	}
 
+	.blog-title{
+		width: 80%;
+	}
+
 
 	.purchase .purchase-top {
 	    font-size: 24px;
@@ -96,9 +98,7 @@
 
 	.button-wrapper{
 		width: 50%;
-		/*float: none;*/
 	}
-
 
 	.content{
 		width: 40%;

@@ -5,8 +5,11 @@
 		height: 250px;
 	}
 
+	.slider-long .slide img{
+		height: 100%;
+	}
+
 	.slider-long .slide .slide-info{
-		/*padding-left: 100px;*/
 		padding-top: 100px;
 	}
 
@@ -70,16 +73,15 @@
 		width: 100%;
 	}
 
+	.blog-title{
+		width: 100%;
+	}
+
 	.button-wrapper{
 		width: 100%;
-		/*float: none;*/
 	}
 
 	.content{
 		width: 100%;
 	}
-	/*
-	.achievement-title{
-		font-size: 20px;
-	}*/
 }

@@ -2,9 +2,7 @@ console.log('start');
 
 
 var slide = document.getElementsByClassName('slide')[0];
-
 var style = window.getComputedStyle(slide);
-
 var slideWidth= parseInt(style.getPropertyValue('width'));
 
 var active = 1;
@@ -69,6 +67,7 @@ function changeSlide(slideIndex){
 
 
 window.onresize = function(){
+	// console.log("resize");
 	var styl = window.getComputedStyle(slide);
 	slideWidth= parseInt(styl.getPropertyValue('width'));
 	navigate.generateNavigator(slides.length, slideWidth);
@@ -86,7 +85,6 @@ window.addEventListener('focus', function(){
 window.addEventListener('blur', function(){
 	animator.finish();
 	window.clearInterval(intervalId);
-
 });
 
 
@@ -162,7 +160,16 @@ var counterInterval = window.setInterval(function(){
 
 
 function scrollToTop(){
-	window.scroll(0,0);
+	var position = parseInt(document.body.scrollTop);
+	
+	var scrollInterval = setInterval(function(){
+		position-=50;
+		window.scroll(0,position);
+
+		if(position<=0){
+			clearInterval(scrollInterval);
+		}
+	},10);
 }
 
 

@@ -1,10 +1,9 @@
+/*header section*/
 .header-content .logo{
 	width: 8.37607%;
 	float: left;
 	padding-top: 24px;
 	padding-bottom: 33px;
-
-	/*background: red;*/
 }
 
 .header-content .logo img{
@@ -90,7 +89,7 @@ div.menu ul li a.active .small-bar{
 }
 
 
-
+/*slider section*/
 .slider-wrapper .arrow{
 	width: 42px;
 	height: 42px;
@@ -102,8 +101,6 @@ div.menu ul li a.active .small-bar{
 	color: white;
 	text-align: center;
 }
-
-
 
 .slider-wrapper .arrow:hover{
 	background-color: #e5493a;
@@ -120,7 +117,6 @@ div.menu ul li a.active .small-bar{
 .slider-wrapper .slider-nav{
 	position: absolute;
 	bottom: 7.35502%;
-	/*left:48.0729%;*/
 }
 
 .slider-wrapper .slider-nav ul{
@@ -141,8 +137,6 @@ div.menu ul li a.active .small-bar{
 	background: white;
 }
 
-
-
 .slider-long .slide .slide-info{
 	width: 100%;
 	padding-top: 190px;
@@ -153,16 +147,9 @@ div.menu ul li a.active .small-bar{
 	padding-bottom: 17px;
 }
 
-.slide-info .slide-desc{
-	width: 65%;
-	font-family: 'raleway';
-	font-size: 27px;
-	color: #626262;
-	padding-bottom: 52px;
-	line-height: 30px;
-}
 
 .slide-info .slide-title .title-top{
+	display: block;
 	font-family: 'raleway';
 	font-weight: bold;
 	font-size: 71px;
@@ -175,8 +162,18 @@ div.menu ul li a.active .small-bar{
 	line-height: 60px;
 }
 
-.slide-info .slide-title .title-bottom .highlight-red{
+.slide-title .title-bottom .highlight-red{
 	color: #e5493a;
+}
+
+.slide-info .slide-desc{
+	display: block;
+	width: 65%;
+	font-family: 'raleway';
+	font-size: 27px;
+	color: #626262;
+	padding-bottom: 52px;
+	line-height: 30px;
 }
 
 
@@ -185,28 +182,23 @@ div.menu ul li a.active .small-bar{
 	height: 54px;
 	float: left;
 	background: #e5493a;
-	/*border-radius: 5px;*/
 }
 
 .slide-info .button-wrapper a{
 	text-decoration: none;
 	display: block;
-	/*width: 100%;*/
 	height: 54px;
 	line-height: 54px;
 	text-align: center;
-	/*border: none;
-	background: none;*/
 	font-family: 'raleway';
 	font-weight: bold;
 	font-size: 14px;
 	color: white;
-
-	/*cursor: pointer;*/
 }
 
 
 .stmt .stmt-top {
+	display: block;
     font-family: 'raleway';
     font-weight: bold;
     font-size: 32px;
@@ -216,6 +208,7 @@ div.menu ul li a.active .small-bar{
 }
 
 .stmt .stmt-bottom{
+	display: block;
     font-family: 'raleway';
     font-size: 24px;
     color: white;
@@ -285,6 +278,7 @@ div.menu ul li a.active .small-bar{
 }
 
 .service-title{
+	display: block;
 	font-family: 'raleway';
 	font-size: 25px;
 	font-weight: bold;
@@ -338,27 +332,17 @@ div.menu ul li a.active .small-bar{
 	border-bottom: 2px solid #e3493f;
 }
 
-
-
-
 .achievement-counter{
 	width: 100%;
 	font-family: 'raleway';
 	font-weight: bold;
 	font-size: 48px;
 	color: white;
-	/*height: 44px;	*/
 }
-
 
 .blog-post-inner{
 	width: 100%;
 }
-
-.blog-post-inner:hover {
-	/*cursor: pointer;*/
-}
-
 
 .blog-post-inner:hover .post-title{
 	color: #e5493a;
@@ -376,8 +360,6 @@ div.menu ul li a.active .small-bar{
 	width: 83.7838%;
 	border-bottom: 2px solid #e5493a;
 }
-
-
 
 .blog-title{
 	text-align: center;
@@ -403,7 +385,6 @@ div.menu ul li a.active .small-bar{
 .blog-title .bottom-line{
 	width: 30.9091%;
 	height: 30px;
-	/*background: white;*/
 	border-bottom: 2px solid #373737;
 	margin: 0px auto;
 }
@@ -430,8 +411,6 @@ div.menu ul li a.active .small-bar{
 }
 
 .blog-pic-top-icon{
-	/*width: 41px;
-	height: 41px;*/
 	width: 11.0811%;
 }
 
@@ -449,9 +428,7 @@ div.menu ul li a.active .small-bar{
 	display: block;
 }
 
-
 .overlay-icon-wrapper{
-	/*display: none;*/
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -513,10 +490,7 @@ div.menu ul li a.active .small-bar{
 }
 
 .post-details{
-	/*width: 91.8919%;*/
-	/*width: 100%;*/
 	padding-top: 23px;
-	/*padding-left: 8.10811%;*/
 	padding-left: 30px;
 	background: #fafafa;
 }
@@ -550,7 +524,6 @@ div.menu ul li a.active .small-bar{
 .purchase .purchase-top {
     font-family: 'raleway';
     font-weight: bold;
-    /*font-size: 32px;*/
 	font-size: 32px;
     color: white;
     line-height: 35px;
@@ -559,7 +532,6 @@ div.menu ul li a.active .small-bar{
 
 .purchase .purchase-middle{
     font-family: 'raleway';
-    /*font-size: 25px;*/
     font-size: 23px;
     color: white;
     line-height: 40px;
@@ -574,24 +546,16 @@ div.menu ul li a.active .small-bar{
 
 .button-wrapper .button{
 	width: 45.9459%;
-	/*height: 54px;*/
 	height: 50px;
-	/*border-radius: 5px;*/
 	border: 2px solid white;
 	background: none;
 }
 
 .button-wrapper .button:hover{
-	/*height: 54px;*/
-	/*border:none;*/
 	border: 2px solid #363636;
 	background: #363636;
 }
 
-/*.button-wrapper .button input:hover{
-	cursor: pointer;
-}
-*/
 .button-wrapper .button a{
 	display: block;
 	text-decoration: none;
@@ -601,7 +565,6 @@ div.menu ul li a.active .small-bar{
 	color: white;
 	text-align: center;
 	line-height: 50px;
-
 }
 
 .button-wrapper .button.buy-this{
@@ -621,7 +584,6 @@ div.menu ul li a.active .small-bar{
 .footer-logo .logo{
 	width: 37.037%;
 	float: left;
-	/*padding-right: 5.55556%;*/
 	padding-right: 10px;
 }
 
@@ -640,7 +602,6 @@ div.menu ul li a.active .small-bar{
 }
 
 .content .description-wrapper{
-	/*padding-top: 34px;*/
 	padding-bottom: 47px;
 	line-height: 19px;
 	font-family: 'roboto';
@@ -680,6 +641,7 @@ a.read-more .arrow-right{
 	height: 42px;
 	border: none;
 	background: none;
+	padding-left :10px;
 }
 
 .content .news-letter .email-input{
@@ -728,10 +690,6 @@ a.read-more .arrow-right{
 }
 
 
-.news:hover{
-	/*cursor: pointer;*/
-}
-
 .news:hover .news-main .news-details .news-title{
 	color: #e5493a;
 }
@@ -739,8 +697,6 @@ a.read-more .arrow-right{
 .news:hover .news-main .news-details .news-date{
 	color: white;
 }
-
-
 
 .news .news-main, .tweets .tweet-main, .contact .contact-main{
 	width: 100%;
@@ -761,7 +717,6 @@ a.read-more .arrow-right{
 .news .news-pic{
 	width: 25.9259%;
 	float: left;
-	/*padding-right: 6.66666%;*/
 	padding-right: 12px;
 }
 
@@ -790,7 +745,6 @@ a.read-more .arrow-right{
 
 
 .tweet-details{
-	/*width: 67.037%;*/
 	width: 86.2963%;
 	float: left;
 }
@@ -813,11 +767,6 @@ a.read-more .arrow-right{
 
 .tweet .hash, .tweet .mention{
 	color: white;
-}
-
-
-.tweets:hover{
-	/*cursor: pointer;*/
 }
 
 .tweets:hover .tweet-main .tweet-details .tweet{
@@ -874,8 +823,6 @@ span.place{
 .contact-details ul li span.icon-last{
 	padding-right: 0px;
 }
-
-
 
 .contact-details ul li span.fb{
 	background: url('../images/icon_fb.png') no-repeat;
