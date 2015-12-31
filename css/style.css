@@ -352,6 +352,9 @@ div.menu ul li a.active .small-bar{
 }
 
 
+.blog-post-inner{
+	width: 100%;
+}
 
 .blog-post-inner:hover {
 	/*cursor: pointer;*/
@@ -511,7 +514,8 @@ div.menu ul li a.active .small-bar{
 }
 
 .post-details{
-	width: 91.8919%;
+	/*width: 91.8919%;*/
+	/*width: 100%;*/
 	padding-top: 23px;
 	/*padding-left: 8.10811%;*/
 	padding-left: 30px;
