@@ -6,6 +6,7 @@ function Animator(element) {
 	this.finalValue = 0;
 	this.property;
 	
+	//animates the slider
 	this.animate = function(cssProperty, value, duration) {
 		var style = window.getComputedStyle(element);
 		var initial = style.getPropertyValue(cssProperty);
@@ -18,8 +19,6 @@ function Animator(element) {
 
 		var step = (value - initial) / (duration / intervalLength);
 		
-		// console.log('intial:',initial,'step: ',step,' final:',value);
-		
 		animationIntervalId = intervalTrigger(initial, cssProperty, step, duration,intervalLength);
 		
 	}
@@ -31,7 +30,6 @@ function Animator(element) {
 			this.animation = true;
 			counter++;
 			tempInitial+=step;
-			// element.style[cssProperty] = parseInt(style.getPropertyValue(cssProperty))+step + 'px';
 			element.style[cssProperty] = tempInitial + 'px';
 			if (counter >= duration/intervalLength){
 				window.clearInterval(intervalId);
@@ -61,5 +59,4 @@ function Animator(element) {
 		this.animation==false;
 		
 	}
-
 }

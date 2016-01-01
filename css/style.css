@@ -137,6 +137,10 @@ div.menu ul li a.active .small-bar{
 	background: white;
 }
 
+.slider-wrapper .slider-nav ul li a:hover{
+	cursor: pointer;
+}
+
 .slider-long .slide .slide-info{
 	width: 100%;
 	padding-top: 190px;
@@ -197,6 +201,8 @@ div.menu ul li a.active .small-bar{
 }
 
 
+
+/*statement section*/
 .stmt .stmt-top {
 	display: block;
     font-family: 'raleway';
@@ -215,6 +221,8 @@ div.menu ul li a.active .small-bar{
     line-height: 29px;
 }
 
+
+/*service section*/
 .service-logo{
 	width: 100%;
 	height: 100px;
@@ -300,7 +308,7 @@ div.menu ul li a.active .small-bar{
 }
 
 
-
+/*achievement section*/
 .achievement-info{
 	text-align: center;
 }
@@ -340,6 +348,8 @@ div.menu ul li a.active .small-bar{
 	color: white;
 }
 
+
+/*blog post section*/
 .blog-post-inner{
 	width: 100%;
 }
@@ -369,6 +379,7 @@ div.menu ul li a.active .small-bar{
 }
 
 .blog-title-main{
+	display: block;
 	font-family: 'raleway';
 	font-weight: bold;
 	font-size: 31px;
@@ -388,9 +399,6 @@ div.menu ul li a.active .small-bar{
 	border-bottom: 2px solid #373737;
 	margin: 0px auto;
 }
-
-
-
 
 .post-pic{
 	width: 100%;
@@ -481,7 +489,6 @@ div.menu ul li a.active .small-bar{
 	background-position: 50% 50%;
 }
 
-
 .post-date{
 	width: 91.8919%;
 	font-family: 'roboto';
@@ -521,6 +528,9 @@ div.menu ul li a.active .small-bar{
 
 }
 
+
+
+/*purchase section*/
 .purchase .purchase-top {
     font-family: 'raleway';
     font-weight: bold;
@@ -575,6 +585,8 @@ div.menu ul li a.active .small-bar{
 	float: right;
 }
 
+
+/*footer section*/
 .footer-logo{
 	width: 100%;
 	padding-bottom: 28px;
@@ -689,6 +701,9 @@ a.read-more .arrow-right{
 	width: 100%;
 }
 
+.news-wrapper .news-list li:hover{
+	cursor: pointer;
+}
 
 .news:hover .news-main .news-details .news-title{
 	color: #e5493a;
@@ -743,6 +758,10 @@ a.read-more .arrow-right{
 	color: #484848;
 }
 
+
+.tweet-wrapper .tweet-list li:hover{
+	cursor: pointer;
+}
 
 .tweet-details{
 	width: 86.2963%;

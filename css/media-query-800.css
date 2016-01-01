@@ -1,6 +1,7 @@
 
 @media screen and (max-width: 800px){
 	
+	/*slider section*/
 	.slider-long .slide{
 		height: 250px;
 	}
@@ -55,6 +56,8 @@
 		right:25px;
 	}
 	
+
+	/*statement section*/
 	.stmt .stmt-top {
 	    font-size: 18px;
 	    line-height: 30px;
@@ -65,22 +68,32 @@
 	   	line-height: 17px;
 	}	
 
+
+	/*service section*/
 	.service{
 		width: 100%;
 	}
 
+
+	/*achievement section*/
 	.achievement{
 		width: 100%;
 	}
 
+
+	/*blog section*/
 	.blog-title{
 		width: 100%;
 	}
 
+
+	/*purchase section*/
 	.button-wrapper{
 		width: 100%;
 	}
 
+
+	/*footer section*/
 	.content{
 		width: 100%;
 	}

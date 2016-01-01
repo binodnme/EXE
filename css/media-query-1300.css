@@ -1,6 +1,7 @@
 
 @media screen and (max-width: 1300px){
 	
+	/*slider section*/
 	.slider-long .slide{
 		height: 400px;
 	}
@@ -52,6 +53,8 @@
 		right:50px;
 	}
 
+
+	/*statement section*/
 	.stmt .stmt-top {
 	    font-size: 20px;
 	    line-height: 30px;
@@ -62,6 +65,8 @@
 	   	line-height: 18px;
 	}	
 
+
+	/*service section*/
 	.service{
 		width: 45%;
 		padding-top: 30px;
@@ -69,12 +74,16 @@
 	
 	}
 
+
+	/*achievement section*/
 	.achievement{
 		width: 45%;
 		padding-top: 50px;
 		padding-bottom: 20px;
 	}
 
+
+	/*blog post section*/
 	.blog-post{
 		width: 100%;
 		padding-right: 0px;
@@ -86,6 +95,7 @@
 	}
 
 
+	/*purchase section*/
 	.purchase .purchase-top {
 	    font-size: 24px;
 	    line-height: 33px;
@@ -96,10 +106,14 @@
 	    line-height: 18px;
 	}
 
+
+	/*purchase section*/
 	.button-wrapper{
 		width: 50%;
 	}
+	
 
+	/*footer section*/
 	.content{
 		width: 40%;
 		padding-top: 50px;

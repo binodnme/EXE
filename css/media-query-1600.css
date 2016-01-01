@@ -1,6 +1,8 @@
 
 @media screen and (max-width: 1600px){
+	
 
+	/*header section*/
 	.header-content{
 		width: 75%;		/*1170*/
 		margin: 0px auto;
@@ -16,6 +18,7 @@
 	    padding-top: 32px;
 	}
 
+	/*slider section*/
 	.slider-long .slide{
 		height: 500px;
 	}
@@ -62,6 +65,8 @@
 		line-height: 30px;
 	}
 
+
+	/*statement section*/
 	.stmt{
 		width: 75%;
 	}
@@ -77,6 +82,7 @@
 	}
 
 	
+	/*service section*/
 	.services{
 		width: 70%;
 	}
@@ -85,6 +91,12 @@
 		padding-right: 15px;
 	}
 
+	.service-description{
+		font-size: 13px;
+	}
+
+
+	/*achievement section*/
 	.achievements{
 		width: 75%;
 	}
@@ -97,6 +109,12 @@
 		font-size: 18px;
 	}
 
+	.achievement-description{
+		font-size: 14px;
+	}
+
+
+	/*blog post section*/
 	.blog-post-wrapper{
 		width: 75%;
 		margin: 0px auto;
@@ -120,6 +138,8 @@
 		line-height: 17px;
 	}
 
+
+	/*purchase section*/
 	.purchase{
 		width: 75%;
 	}
@@ -134,6 +154,8 @@
 	    line-height: 20px;
 	}
 
+
+	/*footer section*/
 	.footer-logo .moto{
 		font-size: 9px;
 		padding-top: 12px;

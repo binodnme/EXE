@@ -4,17 +4,15 @@ console.log('start');
 var slide = document.getElementsByClassName('slide')[0];
 var style = window.getComputedStyle(slide);
 var slideWidth= parseInt(style.getPropertyValue('width'));
-
 var active = 1;
 var slider = document.getElementsByClassName("slider-long")[0];
 var slides = slider.children;
 var slide = slider.children[0];
-
 var animator = new Animator(slider);
-
 var navElement = document.getElementsByClassName('slider-wrapper')[0];
-
 var navigate = new Navigator(navElement);
+var intervalId = null;
+
 navigate.generateNavigator(slides.length, slideWidth);
 navigate.mark(active);
 
@@ -53,7 +51,7 @@ function showPrevious(){
 	}
 }
 
-
+//called when slider dots are clicked
 function changeSlide(slideIndex){
 	animator.finish();
 	window.clearInterval(intervalId);
@@ -66,8 +64,8 @@ function changeSlide(slideIndex){
 }
 
 
+//called when window resize
 window.onresize = function(){
-	// console.log("resize");
 	var styl = window.getComputedStyle(slide);
 	slideWidth= parseInt(styl.getPropertyValue('width'));
 	navigate.generateNavigator(slides.length, slideWidth);
@@ -77,11 +75,13 @@ window.onresize = function(){
 }
 
 
+//called when window is focused
 window.addEventListener('focus', function(){
 	intervalId=setInterval(slideImage, 3000);
 });
 
 
+//called when window is out of focus
 window.addEventListener('blur', function(){
 	animator.finish();
 	window.clearInterval(intervalId);
@@ -94,9 +94,10 @@ var achievCounter1 = document.getElementsByClassName('achievement-counter')[1];
 var achievCounter2 = document.getElementsByClassName('achievement-counter')[2];
 var achievCounter3 = document.getElementsByClassName('achievement-counter')[3];
 
+
+// checks if the input element is in viewport
 function isElementInViewport(el) {
     var rect = el.getBoundingClientRect();
-
     return rect.bottom > 0 &&
         rect.right > 0 &&
         rect.left < (window.innerWidth || document. documentElement.clientWidth) /*or $(window).width() */ &&
@@ -104,6 +105,12 @@ function isElementInViewport(el) {
 }
 
 
+/*
+	sc 	= satisfied clients
+	cp 	= completed projects
+	loa = likes on average
+	wl 	= we launched 
+*/
 var sc=0, cp=0, loa=0, wl=0;
 var scFinal = 6587;
 var cpFinal = 896;
@@ -159,6 +166,8 @@ var counterInterval = window.setInterval(function(){
 },500);
 
 
+
+//scroll to the top
 function scrollToTop(){
 	var position = parseInt(document.body.scrollTop);
 	
@@ -178,13 +187,11 @@ window.onload = function(){
 }
 
 
+//align blog post overlay icon
 function alignIcon(){
 	var overlayIconWrapper = document.getElementsByClassName('overlay-icon-wrapper')[0];
-	
 	var overlayIcon = document.getElementsByClassName('overlay-icons');
-
 	var style = window.getComputedStyle(overlayIconWrapper);
-	
 	var pHeight = parseFloat(style.getPropertyValue('height'));
 
 	for (var i = overlayIcon.length - 1; i >= 0; i--) {

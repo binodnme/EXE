@@ -1,24 +1,22 @@
 function Navigator(element) {
 	this.el = element;
 
+
+	// generates the slider dots
 	this.generateNavigator = function(imageNumber, slideWidth){
-		// var div = document.createElement('div');
 		var div = document.getElementsByClassName('slider-nav')[0];
 		while(div.firstChild){
 			div.removeChild(div.firstChild);
 		}
-		// div.setAttribute('class', 'nav');
-		// div.style.position= 'absolute';
+
 		var ul = document.createElement('ul');
 		ul.setAttribute('class','nav-ul')
 
 		for(var i=0; i<imageNumber; i++){
 			var li = document.createElement('li');
 			var a = document.createElement('a');
-			a.setAttribute('href','#');
 			a.setAttribute('name', i)
 			a.setAttribute('onclick', 'changeSlide('+i+')');
-
 			li.appendChild(a)
 			ul.appendChild(li);
 		}
@@ -30,8 +28,8 @@ function Navigator(element) {
 		element.appendChild(div);
 	}
 
+	// marks the active dot
 	this.mark = function(active){
-		// var ul = document.getElementsByTagName("ul")[0];
 		var ul = document.getElementsByClassName('nav-ul')[0];
 
 		for(var i=0; i<ul.children.length; i++){
