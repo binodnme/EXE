@@ -79,7 +79,7 @@ window.onresize = function(){
 
 //called when window is focused
 window.addEventListener('focus', function(){
-	intervalId=setInterval(slideImage, 3000);
+	// intervalId=setInterval(slideImage, 3000);
 });
 
 
