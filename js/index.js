@@ -18,12 +18,14 @@ navigate.mark(active);
 
 
 function slideImage(){
+	var styl = window.getComputedStyle(slide);
+	slideWidth= parseInt(styl.getPropertyValue('width'));
 	active = active == slides.length ? active = 1 : ++active;
 	var ml = (slideWidth * (active-1) * -1);
 	animator.animate('margin-left',ml,1000);
 	navigate.mark(active);
 }
-var intervalId= window.setInterval(slideImage, 3000);
+// var intervalId= window.setInterval(slideImage, 3000);
 
 
 function showNext(){
@@ -34,7 +36,7 @@ function showNext(){
 		var ml = (slideWidth * (active-1) * -1);
 		animator.animate("margin-left",ml,1000);
 		navigate.mark(active);
-		intervalId=setInterval(slideImage, 3000);
+		// intervalId=setInterval(slideImage, 3000);
 	}
 }
 
@@ -47,7 +49,7 @@ function showPrevious(){
 		var ml = (slideWidth * (active-1) * -1);
 		animator.animate("margin-left",ml,1000);
 		navigate.mark(active);
-		intervalId=setInterval(slideImage, 3000);
+		// intervalId=setInterval(slideImage, 3000);
 	}
 }
 
@@ -59,7 +61,7 @@ function changeSlide(slideIndex){
 	var ml = (slideWidth * (active-1) * -1);
 	animator.animate("margin-left",ml,1000);
 	navigate.mark(active);
-	intervalId=setInterval(slideImage, 3000);
+	// intervalId=setInterval(slideImage, 3000);
 
 }
 
